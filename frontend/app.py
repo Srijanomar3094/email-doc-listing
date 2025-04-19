@@ -9,7 +9,6 @@ base_url = "http://localhost:8000"
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 
-# Login Form
 if not st.session_state.logged_in:
     st.subheader("🔐 Login")
     email = st.text_input("Email")
@@ -22,7 +21,6 @@ if not st.session_state.logged_in:
         else:
             st.error("Invalid credentials")
 
-# Email Listing
 if st.session_state.logged_in:
     st.subheader("📬 Your Emails")
 
