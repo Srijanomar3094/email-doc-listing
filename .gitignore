@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+*.egg
+*.egg-info/
+*.env
+.env
+.env.*
+
+# Virtualenv
+venv/
+fastenv/
+ENV/
+env/
+.Python
+
+# VSCode and other IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+*.pydevproject
+
+# OAuth credentials (Gmail API)
+credentials.json
+token.json
+
+# Byte-compiled / packages
+*.bak
+*.old
+*.orig
+*.save
+
+# MongoDB dump or exports
+dump/
