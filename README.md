@@ -52,8 +52,8 @@ This repository contains the implementation for both **Task 1** and **Task 2** f
 ### 📁 Clone Project
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Srijanomar3094/email-doc-listing.git
+cd email-doc-listing
 ```
 
 ### 🔧 Setup Virtual Environment
@@ -138,7 +138,7 @@ Visit: [http://localhost:8501](http://localhost:8501)
 POST /auth/login
 
 {
-  "email": "alice@example.com",
+  "email": "tes@gmail.com",
   "password": "test123"
 }
 ```
